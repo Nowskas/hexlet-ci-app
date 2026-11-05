@@ -164,6 +164,8 @@ settings:
 
 overrides:
   undici: 6.29.1
+  '@modelcontextprotocol/sdk': 1.30.1
+  qs: 6.16.1
 
 importers:
 
@@ -1132,8 +1134,8 @@ packages:
   '@marijn/find-cluster-break@1.0.4':
     resolution: {integrity: sha512-Wy0V7+SGUjnF9/TkiM1hKVDPj7jKXduPNboMVtHTA8dySMURWqfg/JZ9E2Sq8JgSJmkl7k7Qe9FLeMSrSraWmQ==}
 
-  '@modelcontextprotocol/sdk@1.30.0':
-    resolution: {integrity: sha512-xKd8OIzlqNzcqcNumGAa6g+PW2kjD5vrpcKOnfldAUPP3j7lnqMPwlTXQm8gF+UwH72z0lqaRbjr9hqGz0eITA==}
+  '@modelcontextprotocol/sdk@1.30.1':
+    resolution: {integrity: sha512-H2HxLvC3HDNybePJaLdSrU1hhUK5iQw+WvV1b01myFyI7sdVGe1u/IPTE5D9fGCiJDVtgMV/lmFkQXLmQyIFYA==}
     engines: {node: '>=18'}
     peerDependencies:
       '@cfworker/json-schema': ^4.1.1
@@ -5704,10 +5706,6 @@ packages:
     resolution: {integrity: sha512-vYt7UD1U9Wg6138shLtLOvdAu+8DsC/ilFtEVHcH+wydcSpNE20AfSOduf6MkRFahL5FY7X1oU7nKVZFtfq8Fg==}
     engines: {node: '>=6'}
 
-  qs@6.15.3:
-    resolution: {integrity: sha512-O9gl3zCl5h5blw1KGUzQKhA5oUXSl8rwUIM5o0S3nCXMliSvy5Dzx7/DJcI+SwgICv+IneSZwhBh1oSyEHA71A==}
-    engines: {node: '>=0.6'}
-
   qs@6.16.1:
     resolution: {integrity: sha512-5Px6J7rfHBAGUhNQ3es4YzcOdBBw0SDcVtThJml4RdnKw4tKs2epA0kPZ+K8X+WiHktT93RHVcQ/3ym5aTCgtg==}
     engines: {node: '>=0.6'}
@@ -7924,7 +7922,7 @@ snapshots:
 
   '@marijn/find-cluster-break@1.0.4': {}
 
-  '@modelcontextprotocol/sdk@1.30.0(supports-color@5.5.0)(zod@4.4.3)':
+  '@modelcontextprotocol/sdk@1.30.1(supports-color@5.5.0)(zod@4.4.3)':
     dependencies:
       '@hono/node-server': 2.1.5(hono@4.13.13)
       ajv: 8.20.0
@@ -8984,7 +8982,7 @@ snapshots:
       p-map: 4.0.0
       passport-local: 1.0.0
       pluralize: 8.0.0
-      qs: 6.15.3
+      qs: 6.16.1
       react: 19.3.1
       react-dnd: 16.0.1(@types/hoist-non-react-statics@3.3.7(@types/react@18.3.31))(@types/node@26.6.5)(@types/react@18.3.31)(react@19.3.1)
       react-dnd-html5-backend: 16.0.1
@@ -9097,7 +9095,7 @@ snapshots:
       markdown-it-sub: 1.0.0
       markdown-it-sup: 1.0.0
       prismjs: 1.30.0
-      qs: 6.15.3
+      qs: 6.16.1
       react: 19.3.1
       react-dnd: 16.0.1(@types/hoist-non-react-statics@3.3.7(@types/react@18.3.31))(@types/node@26.6.5)(@types/react@18.3.31)(react@19.3.1)
       react-dnd-html5-backend: 16.0.1
@@ -9154,7 +9152,7 @@ snapshots:
       date-fns-tz: 2.0.1(date-fns@2.30.0)
       formik: 2.4.9(@types/react@18.3.31)(react@19.3.1)
       lodash: 4.18.1
-      qs: 6.15.3
+      qs: 6.16.1
       react: 19.3.1
       react-dom: 19.3.1(react@19.3.1)
       react-intl: 6.6.2(react@19.3.1)(typescript@5.9.3)
@@ -9208,7 +9206,7 @@ snapshots:
       lodash: 4.18.1
       micromatch: 4.0.8
       pluralize: 8.0.0
-      qs: 6.15.3
+      qs: 6.16.1
       react: 19.3.1
       react-dom: 19.3.1(react@19.3.1)
       react-dropzone: 14.3.8(react@19.3.1)
@@ -9242,7 +9240,7 @@ snapshots:
       '@casl/ability': 6.7.5
       '@koa/cors': 5.0.0
       '@koa/router': 12.0.2(supports-color@5.5.0)
-      '@modelcontextprotocol/sdk': 1.30.0(supports-color@5.5.0)(zod@4.4.3)
+      '@modelcontextprotocol/sdk': 1.30.1(supports-color@5.5.0)(zod@4.4.3)
       '@paralleldrive/cuid2': 2.2.2
       '@strapi/admin': 5.52.2(@babel/runtime@7.29.10)(@codemirror/autocomplete@6.20.4)(@codemirror/language@6.13.1)(@codemirror/lint@6.9.7)(@codemirror/search@6.7.2)(@codemirror/theme-one-dark@6.1.3)(@emotion/is-prop-valid@1.4.0)(@strapi/data-transfer@5.52.2(@types/node@26.6.5)(better-sqlite3@13.0.3)(supports-color@5.5.0)(ts-toolbelt@9.6.0)(typescript@5.9.3))(@types/hoist-non-react-statics@3.3.7(@types/react@18.3.31))(@types/node@26.6.5)(@types/react@18.3.31)(better-sqlite3@13.0.3)(codemirror@5.65.21)(debug@4.3.4(supports-color@5.5.0))(react-dom@19.3.1(react@19.3.1))(react-router-dom@7.18.4(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(react@19.3.1)(redux@4.2.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))(supports-color@5.5.0)(ts-toolbelt@9.6.0)
       '@strapi/database': 5.52.2(better-sqlite3@13.0.3)(supports-color@5.5.0)(ts-toolbelt@9.6.0)
@@ -9290,7 +9288,7 @@ snapshots:
       ora: 5.4.1
       package-json: 10.0.1
       pkg-up: 3.1.0
-      qs: 6.15.3
+      qs: 6.16.1
       resolve.exports: 2.0.2
       semver: 7.7.4
       typescript: 5.9.3
@@ -9542,7 +9540,7 @@ snapshots:
       '@strapi/icons': 2.2.4(react-dom@19.3.1(react@19.3.1))(react@19.3.1)(styled-components@6.6.0(react-dom@19.3.1(react@19.3.1))(react@19.3.1))
       '@strapi/utils': 5.52.2(ts-toolbelt@9.6.0)
       lodash: 4.18.1
-      qs: 6.15.3
+      qs: 6.16.1
       react: 19.3.1
       react-dom: 19.3.1(react@19.3.1)
       react-intl: 6.6.2(react@19.3.1)(typescript@5.9.3)
@@ -9590,7 +9588,7 @@ snapshots:
       '@casl/ability': 6.7.5
       '@strapi/utils': 5.52.2(ts-toolbelt@9.6.0)
       lodash: 4.18.1
-      qs: 6.15.3
+      qs: 6.16.1
       sift: 16.0.1
     transitivePeerDependencies:
       - ts-toolbelt
@@ -9829,7 +9827,7 @@ snapshots:
       '@casl/ability': 6.7.5
       '@koa/cors': 5.0.0
       '@koa/router': 12.0.2(supports-color@5.5.0)
-      '@modelcontextprotocol/sdk': 1.30.0(supports-color@5.5.0)(zod@4.4.3)
+      '@modelcontextprotocol/sdk': 1.30.1(supports-color@5.5.0)(zod@4.4.3)
       '@strapi/database': 5.52.2(better-sqlite3@13.0.3)(supports-color@5.5.0)(ts-toolbelt@9.6.0)
       '@strapi/logger': 5.52.2
       '@strapi/permissions': 5.52.2(ts-toolbelt@9.6.0)
@@ -9918,7 +9916,7 @@ snapshots:
       lodash: 4.18.1
       mime-types: 2.1.35
       prop-types: 15.8.1
-      qs: 6.15.3
+      qs: 6.16.1
       react: 19.3.1
       react-dnd: 16.0.1(@types/hoist-non-react-statics@3.3.7(@types/react@18.3.31))(@types/node@26.6.5)(@types/react@18.3.31)(react@19.3.1)
       react-dom: 19.3.1(react@19.3.1)
@@ -13340,11 +13338,6 @@ snapshots:
   punycode.js@2.3.1: {}
 
   punycode@2.3.1: {}
-
-  qs@6.15.3:
-    dependencies:
-      es-define-property: 1.0.1
-      side-channel: 1.1.1
 
   qs@6.16.1:
     dependencies:
